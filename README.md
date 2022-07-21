@@ -6,8 +6,5 @@ This page is a `documentation` of useful things I have read that I think are wor
 
 ## Preperation stage
 <br>
-[X]- HTML
-[x] - CSS
-[x]- JS
-<br>
+
 ## Code 301 - Intermediate Software Development
