@@ -1,10 +1,12 @@
 # reading-notes
 <br>
 
-**This page is a `documentation` of useful things I have read that I think are worth **noting**  	:floppy_disk:
+This page is a `documentation` of useful things I have read that I think are worth **noting**  	:floppy_disk:
 <br>
 
-[x]-## Preperation stage
+## Preperation stage
 <br>
-
-[]-##Code 301 - Intermediate Software Development
+[X] - HTML
+[x] - CSS
+[x] - JS
+## Code 301 - Intermediate Software Development
