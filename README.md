@@ -8,7 +8,7 @@ This page is a `documentation` of useful things I have read that I think are wor
 <br>
 
 ## Code 301 - Intermediate Software Development
-1. [React and Components](./React-Components)
+1. [React and Components](./React-Components.md)
 
 
 
@@ -17,4 +17,4 @@ This page is a `documentation` of useful things I have read that I think are wor
 
 
 
-[## Things I want to know more about](./Want2Know)
+[## Things I want to know more about](./Want2Know.md)
