@@ -8,4 +8,4 @@ This page is a `documentation` of useful things I have read that I think are wor
 <br>
 
 ## Code 301 - Intermediate Software Development
-1. [React and Components](./React and Components)
+1. [React and Components](./React-Components)
