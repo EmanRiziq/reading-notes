@@ -11,6 +11,7 @@ This page is a `documentation` of useful things I have read that I think are wor
 1. [React and Components](./React-Components.md)
 2. [Create State and Props](https://github.com/EmanRiziq/reading-notes/blob/main/State-and-Props)
 3. [Passing Functions as Props](https://github.com/EmanRiziq/reading-notes/blob/main/Passing%20Functions%20as%20Props.md)
+4. [React and Forms](./ReactandForms.md)
 
 
  
