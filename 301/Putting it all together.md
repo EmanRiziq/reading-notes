@@ -22,6 +22,11 @@ to make basic design for my application (without using states), just  build comp
 
 
 # Higher-Order Functions
-What is a “higher-order function”?
-Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
-Explain how either map or reduce operates, with regards to higher-order functions.
+### What is a “higher-order function”?
+Functions that operate on other functions, either by taking them as arguments or by returning them
+
+### Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
+i think its a call back function  // but not understanding the hall process
+
+### Explain how either map or reduce operates, with regards to higher-order functions.
+i think its some thing like recursion
