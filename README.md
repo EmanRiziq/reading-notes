@@ -17,6 +17,7 @@ This page is a `documentation` of useful things I have read that I think are wor
 
 7. [Functiona Programming](https://github.com/EmanRiziq/reading-notes/blob/main/301/Functional%20Programming.md)
 8. [APIs](https://github.com/EmanRiziq/reading-notes/blob/main/301/API%20Design%20Best%20Practices.md)
+10. [In memory storage](https://github.com/EmanRiziq/reading-notes/blob/main/301/In%20memory%20storage.md)
 
 
 
