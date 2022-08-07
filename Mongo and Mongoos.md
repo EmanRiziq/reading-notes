@@ -1,73 +1,88 @@
-# Mongo and Mongoose
 
-- ### Fill in the chart below with five differences between SQL and NoSQL databases:
+### Fill in the chart below with five differences between SQL and NoSQL databases:
 
----
+  	 
+ <table>
+    <tr>
+        <td>SQL</td>
+        <td>No SQL</td>
+    </tr>
+    <tr>
+        <td>called rational database
+        </td>
+        <td>called non-rational database</td>
+    </tr>
+    <tr>
+        <td>table based database</td>
+        <td>document based</td>
+    </tr>
+    <tr>
+        <td>predefined schema</td>
+        <td>dynamic schema for unstructured data</td>
+    </tr>
+    <tr>
+        <td>vertically scalable </td>
+        <td>horizontally scalable</td>
+    </tr>
+    <tr>
+        <td>uses SQL ( structured query language ) for defining and manipulating the data, which is very powerful. </td>
+        <td>queries are focused on collection of documents.</td>
+    </tr>
+    <tr>
+        <td> examples: MySql, Oracle, Sqlite, Postgres and MS-SQL</td>
+        <td>examples: MongoDB, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j and CouchDb</td>
+    </tr>
+    <tr>
+        <td> SQL databases are good fit for the complex query intensive environment</td>
+        <td> not good fit for complex queries</td>
+    </tr>
+    <tr>
+        <td> not best fit for hierarchical data storage</td>
+        <td> fits better for the hierarchical data storage as it follows the key-value pair way of storing data similar to JSON data.</td>
+    </tr>
+    <tr>
+        <td> best fit for heavy duty transactional type applications</td>
+        <td> transactions purpose, it is still not comparable and sable enough in high load and for complex transactional applications</td>
+    </tr>
+    <tr>
+        <td>Excellent support are available for all SQL database from their vendors</td>
+        <td> some NoSQL database you still have to rely on community support</td>
+    </tr>
+    <tr>
+        <td> emphasizes on ACID properties ( Atomicity, Consistency, Isolation and Durability)</td>
+        <td> follows the Brewers CAP theorem ( Consistency, Availability and Partition tolerance)</td>
+    </tr>
+</table>
+ 	 
 
-The Difference|SQL|NoSQL
---------------|---|--------
-Data base name|SQL databases are primarily called as Relational Databases (RDBMS).|NoSQL database are primarily called as non-relational or distributed database.
-Data base based on|SQL databases are table based databases.|NoSQL databases are document based.
-Data base schema|SQL databases have predefined schema.|NoSQL databases have dynamic schema for unstructured data.
-Data base scaleable|SQL databases are vertically scalable.|NoSQL databases are horizontally scalable.
+## What kind of data is a good fit for an SQL database?
+If your data is highly structured and associations among the program entities are clearly defined.
+## Give a real world example.
+for instance, if you are developing a point of sale system where you need to store customer orders and product records
+## What kind of data is a good fit a NoSQL database?
+large data with simple schema
+## Give a real world example.
+Games
+## Which type of database is best for hierarchical data storage?
+noSQL
+## Which type of database is best for scalability?
+NoSQL, earning it's name by being “not only SQL” makes it easier to store all different types of data together. It's used for its flexibility and therefore speed and scalability in managing large volumes of data.
 
+# [Source](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
+## What does SQL stand for?
+Structured Query Language
 
-
-### 1. What kind of data is a good fit for an SQL database?
-For complex queries: SQL databases are good fit for the complex query intensive environment.
-
-### 2. Give a real world example.
-NoSQL databases do a better job at representing real world objects. It’s all fresh in my mind, I had my exam on Advanced DataBases just yesterday and thus was one of the questions!!
-
-### 3. What kind of data is a good fit a NoSQL database?
-NoSQL database fits better for the hierarchical data storage as it follows the key-value pair way of storing data similar to JSON data.
-
-### 4. Give a real world example.
-Lets say you want to build the next Google Analytics. You figure out you want to track IP Address, Browser & Device type. Later you, however, finds out you might want to track Browser Size as well. Since analytics databases can contain millions/billions of data, it isn’t so easy to add an extra column to your table. It would simply take too long.
-
-With a NOSQL solution you might just add it to the future rows, without having to change every row in the tracking table
-
-### 5. Which type of database is best for hierarchical data storage?
-NoSQL database fits better for the hierarchical data storage as it follows the key-value pair way of storing data similar to JSON data.
-
-### 6. Which type of database is best for scalability?
-it depends on which scale we are talking about SQL databases are vertically scalable whereas the NoSQL databases are horizontally scalable. SQL databases are scaled by increasing the horse-power of the hardware. NoSQL databases are scaled by increasing the databases servers in the pool of resources to reduce the load.
-
-
-
-# sql vs nosql
-
-### 1. What does SQL stand for?
-stands for Structured Query Language.
-
-### 2. What is a relational database?
-A relational database is a type of database that stores and provides access to data points that are related to one another.
-
-### 3. What type of structure does a relational database work with?
-its SQL, SQL databases are primarily called as Relational Databases (RDBMS); whereas NoSQL database are primarily called as non-relational or distributed database.
-
-### 4. What is a ‘schema’?
-A schema is a collection of logical structures of data, or schema objects. A schema is owned by a database user and has the same name as that user. Each user owns a single schema. Schema objects can be created and manipulated with SQL.
-
-### 5. What is a NoSQL database?
-NoSQL databases (aka “not only SQL”) are non tabular, and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. They provide flexible schemas and scale easily with large amounts of data and high user loads.
-
-### 6. How does it work?
-The major purpose of using a NoSQL database is for distributed data stores with humongous data storage needs. NoSQL is used for Big data and real-time web apps. For example, companies like Twitter, Facebook and Google collect terabytes of user data every single day.
-
-### 7. What is inside of a Mongo database?
-MongoDB makes use of records which are made up of documents that contain a data structure composed of field and value pairs. Documents are the basic unit of data in MongoDB. The documents are similar to JavaScript Object Notation, but use a variant called Binary JSON (BSON).
-
-### 8. Which is more flexible - SQL or MongoDB? and why.
-In MongoDB, all individual records are stored as documents which are collections of fields with a dynamic schema. Here, each collection need not have the same set of fields which makes it more flexible
-
-### 9. What is the disadvantage of a NoSQL database?
-
-- NoSQL databases don’t have the reliability functions which Relational Databases have (basically don’t support ACID).
-This also means that NoSQL databases offer consistency in performance and scalability.
-- In order to support ACID developers will have to implement their own code, making their systems more complex.
-- This may reduce the number of safe applications that commit transactions, for example bank systems.
-- NoSQL is not compatible (at all) with SQL.
-- Note: Some NoSQL management systems do use a Structured Query Language.
-This means that you will need a manual query language, making things slower and more complex.
-- NoSQL are very new compared to Relational Databases, which means that are far less stable and may have a lot less functionalities.
+## What is a relational database?
+database which works with certain assumptions
+## What type of structure does a relational database work with?
+Tables - like a storage container
+## What is a ‘schema’?
+## What is a NoSQL database?
+ called MongoDB which stands for Humongous because it can store lots and lots of data in a very effiecient way.
+## How does it work?
+we have data bases and we have collections instead of tables and inside it we have documents (rows and tables) they look like JSON and they dont have to use the same schema, we can have multiple documents in one collection which have different fields.
+## What is inside of a Mongo database?
+## Which is more flexible - SQL or MongoDB? and why.
+MongoDB
+## What is the disadvantage of a NoSQL database?
+You could have duplicated data, it needs to be updated
