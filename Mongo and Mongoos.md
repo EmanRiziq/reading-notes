@@ -1,4 +1,4 @@
-
+#  Mongo and Mongoose
 ### Fill in the chart below with five differences between SQL and NoSQL databases:
 
   	 
@@ -55,34 +55,47 @@
 </table>
  	 
 
-## What kind of data is a good fit for an SQL database?
+### What kind of data is a good fit for an SQL database?
 If your data is highly structured and associations among the program entities are clearly defined.
-## Give a real world example.
+
+### Give a real world example.
 for instance, if you are developing a point of sale system where you need to store customer orders and product records
-## What kind of data is a good fit a NoSQL database?
+
+### What kind of data is a good fit a NoSQL database?
 large data with simple schema
-## Give a real world example.
+
+### Give a real world example.
 Games
-## Which type of database is best for hierarchical data storage?
+
+### Which type of database is best for hierarchical data storage?
 noSQL
-## Which type of database is best for scalability?
+
+### Which type of database is best for scalability?
 NoSQL, earning it's name by being “not only SQL” makes it easier to store all different types of data together. It's used for its flexibility and therefore speed and scalability in managing large volumes of data.
 
-# [Source](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
-## What does SQL stand for?
+### What does SQL stand for?
 Structured Query Language
 
-## What is a relational database?
+### What is a relational database?
 database which works with certain assumptions
-## What type of structure does a relational database work with?
+
+### What type of structure does a relational database work with?
 Tables - like a storage container
-## What is a ‘schema’?
-## What is a NoSQL database?
+
+### What is a ‘schema’?
+very strict requirements for the data we store
+
+### What is a NoSQL database?
  called MongoDB which stands for Humongous because it can store lots and lots of data in a very effiecient way.
-## How does it work?
+
+### How does it work?
 we have data bases and we have collections instead of tables and inside it we have documents (rows and tables) they look like JSON and they dont have to use the same schema, we can have multiple documents in one collection which have different fields.
-## What is inside of a Mongo database?
+
+### What is inside of a Mongo database?
+collections --> documents -->data sets
+
 ## Which is more flexible - SQL or MongoDB? and why.
 MongoDB
-## What is the disadvantage of a NoSQL database?
+
+### What is the disadvantage of a NoSQL database?
 You could have duplicated data, it needs to be updated
