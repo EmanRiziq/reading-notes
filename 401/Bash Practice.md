@@ -1,89 +1,28 @@
 ### The Command Line
 command line is a text based interface to the system ,we can type a commands ,and the feedback will be text. <br><br>
 
-### *How does it work 
-<br>
+### Basic Navigation
+- pwd: stands for Print Working Directory
+- ls: short for list
+- cd: change directory
 
-In the terminal we see this
-
-
-**user @bash:ls -l /home/ryan**
-
-**user @bash**:this is called prompt .
-
-**ls** : called a command ,every command must seperated with space.
-
-**-l** : called option,it used to modify the behaviour of the command.
-
-Most of the commands have output.<br><br>
-
-### *Opening a Terminal
-
-<br>
-
--Mac :Applications -> Utilities, key combination 'command + space' 
-
--Linux :Applications -> Utilities
-
--Windows:start->Terminal<br><br>
-
-### *The Shell, Bash
-<br>
-
-**Shell** :is a part of OS ,that use  to define how the terminal look and behave after running th command.
-
-**Bash**  :stands for Bourne again shell .it is example of shell.<br><br>
+***Relative path: A file or directory location relative to where we currently are in the file system.***
+</br>
+***Absolute path: A file or directory location in relation to the root of the file system.***
 
 
+### More About Files
+- file: obtain information about what type of file a file or directory is.
+- ls -a: List the contents of a directory, including hidden files.
 
-### *Commands
-<br>
+***Everything is a file under Linux: Even directories. -Linux is an extensionless system: Files can have any extension they like or none at all. -Linux is case sensitive: Beware of silly typos.***
 
-**pwd** :It tells you what your current or present working directory is. Give it a try now.
+### Manual Pages
+- man < someCommand > : Look up the manual page for a particular command.
+- man -k < someSearchTerm > : Do a keyword search for all manual pages containing the given search term.
+- /< term > : Within a manual page, perform a search for 'term'
+- n : After performing a search within a manual page, select the next found item.
 
-**ls** :list all file in this dirctory
+***The man pages are your friend: Instead of trying to remember everything, instead remember you can easily look stuff up in the man pages.***
 
-**ls -l /etc** : -l long  list.<br>
-/etc list all dirctory in this dirctory.
-<br>
-
-**ls ~/Documents**  ~ means home directory
-
-**ls ./Documents** dot mean this directory
-
-**ls ../Documents** dot dot means parent directory<br><br>
-
-**ls -a** :list all file including hidden files.
-
-**cd**   Change Directories
-
-**man ls** describe every thing about ls command
-
-**/term** search for term in the manual page
-
-### *Paths
-<br>
-
-A path is a means to get to a particular file or directory on the system.
-
-*Absolute paths* :a location  in relation to the root directory.
-
-*Relative paths*  a location  in relation to where we currently are in the system<br><br>
-
-
-### File Manipulation
-<br>
-
-**mkdir**   Make Directory.
-
-**rmdir**  Delete a directory.
-
-**touch** Create a blank file.
-
-**cp** Copy a file or directory.
-
-**mv** Move a file or directory 
-
-
-**rm** Delete a file.
 
