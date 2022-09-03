@@ -25,4 +25,17 @@ command line is a text based interface to the system ,we can type a commands ,an
 
 ***The man pages are your friend: Instead of trying to remember everything, instead remember you can easily look stuff up in the man pages.***
 
+###  File Manipulation
+- mkdir : Make Directory - ie. Create a directory.
+- rmdir : Remove Directory - ie. Delete a directory.
+- touch : Create a blank file.
+- cp : Copy - ie. Copy a file or directory.
+- mv : Move - ie. Move a file or directory (can also be used to rename).
+- rm : Remove - ie. Delete a file.
 
+***No undo : The Linux command line does not have an undo feature. Perform destructive actions carefully.
+Command line options
+Most commands have many useful command line options. Make sure you skim the man page for new commands so you are familiar with what they can do and what is available.***
+
+
+## [BASH Cheat Sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
