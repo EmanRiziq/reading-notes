@@ -66,7 +66,7 @@ An object-relational mapper provides an object-oriented layer between relational
 
  ***SQL : is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.***
 
- ***NOAQL : is an approach to database design that enables the storage and querying of data outside the traditional structures found in relational databases***
+ ***NOSQL : is an approach to database design that enables the storage and querying of data outside the traditional structures found in relational databases***
  
  ***database schema : is the structure of a database described in a formal language supported by the database management system (DBMS).***
  
