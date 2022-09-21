@@ -1,11 +1,7 @@
-
-
+### What's the difference between Stack and Queue?
 <table>
-  <th>
-    <td> Stack</td>
-    <td> Queue</td>
-    
-  </th>
+  <th>Stack</th>
+  <th>Queue</th>
   <tr>
     <td>The stack is based on LIFO(Last In First Out) principle</td>
     <td>The queue is based on FIFO(First In First Out) principle.</td>
@@ -54,7 +50,6 @@
   <tr>
     <td>There are no variants available for stack</td>
     <td>There are three types of variants i.e circular queue, double-ended queue and priority queue
-
 </td>
   </tr>
   <tr>
@@ -65,5 +60,21 @@
     <td>Used to solve the recursive type problems</td>
     <td>Used to solve the problem having sequential processing</td>
   </tr>
-
 </table>
+
+### What is Stacks and how to use it?
+ linear data structure that follows the specific order to perform the operations (LIFO)
+ 
+ ### What is Queue?
+ linear data structure in which we can insert the element from one side of the list and delete the element from the other side of the list (FIFO)
+ 
+ 
+ 
+ 
+ #### Which 3 things had you heard about previously and now have better clarity on?
+ Queue , Stack
+ 
+ #### Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+ implementing Stack and Queue in javascript
+ 
+ #### What are you most excited about trying to implement or see how it works?
