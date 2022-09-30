@@ -6,7 +6,6 @@ This page is a `documentation` of useful things I have read that I think are wor
 
 ## Preperation stage
 <br>
-
 ## Code 301 - Intermediate Software Development
 1. [React and Components](./301/React-Components.md)
 2. [Create State and Props](./301/State-and-Props.md)
