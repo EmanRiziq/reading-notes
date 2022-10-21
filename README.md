@@ -5,6 +5,7 @@ This page is a `documentation` of useful things I have read that I think are wor
 <br>
 ## Preperation stage
 <br>
+
 ## Code 301 - Intermediate Software Development
 1. [React and Components](./301/React-Components.md)
 2. [Create State and Props](./301/State-and-Props.md)
@@ -17,11 +18,6 @@ This page is a `documentation` of useful things I have read that I think are wor
 8. [APIs](https://github.com/EmanRiziq/reading-notes/blob/main/301/API%20Design%20Best%20Practices.md)
 10. [In memory storage](https://github.com/EmanRiziq/reading-notes/blob/main/301/In%20memory%20storage.md)
 11. {CRUDS } (https://github.com/EmanRiziq/reading-notes/blob/main/CRUD.md)
-
-
- 
-
-
 
 
 [## Things I want to know more about](./Want2Know.md)
